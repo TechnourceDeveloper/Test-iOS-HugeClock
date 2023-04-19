@@ -250,21 +250,14 @@ class ReminderEditionViewController: DataTableViewController, UITextFieldDelegat
         
         let myString: String? = reminder!.title
         
-        if(myString != nil){
-            if myString!.isEmpty{
+        if(myString == nil){
                 let alert = UIAlertController(title: "HugeClock", message: "Please add reminder title",preferredStyle: UIAlertController.Style.alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
                 self.present(alert, animated: true, completion: nil)
                 return
-            }
-            NotificationHandler.addNotificationFromReminder(reminder!)
-            self.navigationController?.dismiss(animated: true, completion: nil)
-        }else{
-            let alert = UIAlertController(title: "Alert", message: "Please enter title", preferredStyle: UIAlertController.Style.alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
-            self.present(alert, animated: true, completion: nil)
         }
-        
+        NotificationHandler.addNotificationFromReminder(reminder!)
+        self.navigationController?.dismiss(animated: true, completion: nil)
     }
     
 }
