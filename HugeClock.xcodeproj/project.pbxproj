@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93DC619B29EA933300ABC8AD /* Reminders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93DC619929EA933300ABC8AD /* Reminders.xcdatamodeld */; };
+		93DC619E29EABB0700ABC8AD /* tickle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93DC619C29EABB0700ABC8AD /* tickle.mp3 */; };
+		93DC619F29EABB0700ABC8AD /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93DC619D29EABB0700ABC8AD /* bell.mp3 */; };
+		93F123F829EA863700319EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F123F729EA863700319EE6 /* AppDelegate.swift */; };
+		93F123FA29EA863700319EE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F123F929EA863700319EE6 /* SceneDelegate.swift */; };
+		93F123FF29EA863700319EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F123FD29EA863700319EE6 /* Main.storyboard */; };
+		93F1240129EA863900319EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F1240029EA863900319EE6 /* Assets.xcassets */; };
+		93F1240429EA863900319EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F1240229EA863900319EE6 /* LaunchScreen.storyboard */; };
+		93F1240F29EA863900319EE6 /* HugeClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1240E29EA863900319EE6 /* HugeClockTests.swift */; };
+		93F1241929EA863900319EE6 /* HugeClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1241829EA863900319EE6 /* HugeClockUITests.swift */; };
+		93F1241B29EA863900319EE6 /* HugeClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1241A29EA863900319EE6 /* HugeClockUITestsLaunchTests.swift */; };
+		93F1242E29EA892400319EE6 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1242D29EA892400319EE6 /* NotificationHandler.swift */; };
+		93F1242F29EA892400319EE6 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1242D29EA892400319EE6 /* NotificationHandler.swift */; };
+		93F1243029EA892400319EE6 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1242D29EA892400319EE6 /* NotificationHandler.swift */; };
+		93F1243929EA89F300319EE6 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1243829EA89F300319EE6 /* DataHandler.swift */; };
+		93F1243A29EA89F300319EE6 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1243829EA89F300319EE6 /* DataHandler.swift */; };
+		93F1243B29EA89F300319EE6 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1243829EA89F300319EE6 /* DataHandler.swift */; };
+		93F1244629EA8BC000319EE6 /* Reminder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1244429EA8BC000319EE6 /* Reminder+CoreDataProperties.swift */; };
+		93F1244729EA8BC000319EE6 /* Reminder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1244429EA8BC000319EE6 /* Reminder+CoreDataProperties.swift */; };
+		93F1244829EA8BC000319EE6 /* Reminder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1244429EA8BC000319EE6 /* Reminder+CoreDataProperties.swift */; };
+		93F1244929EA8BC000319EE6 /* Reminder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1244529EA8BC000319EE6 /* Reminder+CoreDataClass.swift */; };
+		93F1244A29EA8BC000319EE6 /* Reminder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1244529EA8BC000319EE6 /* Reminder+CoreDataClass.swift */; };
+		93F1244B29EA8BC000319EE6 /* Reminder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1244529EA8BC000319EE6 /* Reminder+CoreDataClass.swift */; };
+		93F1244E29EA8EDE00319EE6 /* MOCHolderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1244D29EA8EDD00319EE6 /* MOCHolderProtocol.swift */; };
+		93F1244F29EA8EDE00319EE6 /* MOCHolderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1244D29EA8EDD00319EE6 /* MOCHolderProtocol.swift */; };
+		93F1245029EA8EDE00319EE6 /* MOCHolderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1244D29EA8EDD00319EE6 /* MOCHolderProtocol.swift */; };
+		93F1245329EA8F2500319EE6 /* RemindersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1245129EA8F2500319EE6 /* RemindersTableViewController.swift */; };
+		93F1245429EA8F2500319EE6 /* RemindersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1245129EA8F2500319EE6 /* RemindersTableViewController.swift */; };
+		93F1245529EA8F2500319EE6 /* RemindersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1245129EA8F2500319EE6 /* RemindersTableViewController.swift */; };
+		93F1245629EA8F2500319EE6 /* ReminderEditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1245229EA8F2500319EE6 /* ReminderEditionViewController.swift */; };
+		93F1245729EA8F2500319EE6 /* ReminderEditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1245229EA8F2500319EE6 /* ReminderEditionViewController.swift */; };
+		93F1245829EA8F2500319EE6 /* ReminderEditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1245229EA8F2500319EE6 /* ReminderEditionViewController.swift */; };
+		93F1245B29EA91F500319EE6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1245929EA91F400319EE6 /* Utilities.swift */; };
+		93F1245C29EA91F500319EE6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1245929EA91F400319EE6 /* Utilities.swift */; };
+		93F1245D29EA91F500319EE6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1245929EA91F400319EE6 /* Utilities.swift */; };
+		93F1245E29EA91F500319EE6 /* DateUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1245A29EA91F400319EE6 /* DateUtilities.swift */; };
+		93F1245F29EA91F500319EE6 /* DateUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1245A29EA91F400319EE6 /* DateUtilities.swift */; };
+		93F1246029EA91F500319EE6 /* DateUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1245A29EA91F400319EE6 /* DateUtilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93F1240B29EA863900319EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93F123EC29EA863700319EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93F123F329EA863700319EE6;
+			remoteInfo = HugeClock;
+		};
+		93F1241529EA863900319EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93F123EC29EA863700319EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93F123F329EA863700319EE6;
+			remoteInfo = HugeClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93DC619A29EA933300ABC8AD /* Reminders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reminders.xcdatamodel; sourceTree = "<group>"; };
+		93DC619C29EABB0700ABC8AD /* tickle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tickle.mp3; sourceTree = "<group>"; };
+		93DC619D29EABB0700ABC8AD /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = "<group>"; };
+		93F123F429EA863700319EE6 /* HugeClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HugeClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F123F729EA863700319EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93F123F929EA863700319EE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		93F123FE29EA863700319EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93F1240029EA863900319EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93F1240329EA863900319EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93F1240529EA863900319EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F1240A29EA863900319EE6 /* HugeClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HugeClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F1240E29EA863900319EE6 /* HugeClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HugeClockTests.swift; sourceTree = "<group>"; };
+		93F1241429EA863900319EE6 /* HugeClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HugeClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F1241829EA863900319EE6 /* HugeClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HugeClockUITests.swift; sourceTree = "<group>"; };
+		93F1241A29EA863900319EE6 /* HugeClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HugeClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93F1242D29EA892400319EE6 /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		93F1243829EA89F300319EE6 /* DataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		93F1244429EA8BC000319EE6 /* Reminder+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reminder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		93F1244529EA8BC000319EE6 /* Reminder+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reminder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		93F1244D29EA8EDD00319EE6 /* MOCHolderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOCHolderProtocol.swift; sourceTree = "<group>"; };
+		93F1245129EA8F2500319EE6 /* RemindersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersTableViewController.swift; sourceTree = "<group>"; };
+		93F1245229EA8F2500319EE6 /* ReminderEditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderEditionViewController.swift; sourceTree = "<group>"; };
+		93F1245929EA91F400319EE6 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		93F1245A29EA91F400319EE6 /* DateUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93F123F129EA863700319EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F1240729EA863900319EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F1241129EA863900319EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93F123EB29EA863700319EE6 = {
+			isa = PBXGroup;
+			children = (
+				93F123F629EA863700319EE6 /* HugeClock */,
+				93F1240D29EA863900319EE6 /* HugeClockTests */,
+				93F1241729EA863900319EE6 /* HugeClockUITests */,
+				93F123F529EA863700319EE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93F123F529EA863700319EE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93F123F429EA863700319EE6 /* HugeClock.app */,
+				93F1240A29EA863900319EE6 /* HugeClockTests.xctest */,
+				93F1241429EA863900319EE6 /* HugeClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93F123F629EA863700319EE6 /* HugeClock */ = {
+			isa = PBXGroup;
+			children = (
+				93F1244C29EA8E9800319EE6 /* ViewControllers */,
+				93F1243329EA89BD00319EE6 /* DATA */,
+				93F1242C29EA88F200319EE6 /* Utilities */,
+				93F123F729EA863700319EE6 /* AppDelegate.swift */,
+				93F123F929EA863700319EE6 /* SceneDelegate.swift */,
+				93F123FD29EA863700319EE6 /* Main.storyboard */,
+				93F1240029EA863900319EE6 /* Assets.xcassets */,
+				93F1240229EA863900319EE6 /* LaunchScreen.storyboard */,
+				93F1240529EA863900319EE6 /* Info.plist */,
+				93DC619929EA933300ABC8AD /* Reminders.xcdatamodeld */,
+			);
+			path = HugeClock;
+			sourceTree = "<group>";
+		};
+		93F1240D29EA863900319EE6 /* HugeClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				93F1240E29EA863900319EE6 /* HugeClockTests.swift */,
+			);
+			path = HugeClockTests;
+			sourceTree = "<group>";
+		};
+		93F1241729EA863900319EE6 /* HugeClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93F1241829EA863900319EE6 /* HugeClockUITests.swift */,
+				93F1241A29EA863900319EE6 /* HugeClockUITestsLaunchTests.swift */,
+			);
+			path = HugeClockUITests;
+			sourceTree = "<group>";
+		};
+		93F1242C29EA88F200319EE6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				93DC619D29EABB0700ABC8AD /* bell.mp3 */,
+				93DC619C29EABB0700ABC8AD /* tickle.mp3 */,
+				93F1245A29EA91F400319EE6 /* DateUtilities.swift */,
+				93F1245929EA91F400319EE6 /* Utilities.swift */,
+				93F1244D29EA8EDD00319EE6 /* MOCHolderProtocol.swift */,
+				93F1242D29EA892400319EE6 /* NotificationHandler.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		93F1243329EA89BD00319EE6 /* DATA */ = {
+			isa = PBXGroup;
+			children = (
+				93F1244529EA8BC000319EE6 /* Reminder+CoreDataClass.swift */,
+				93F1244429EA8BC000319EE6 /* Reminder+CoreDataProperties.swift */,
+				93F1243829EA89F300319EE6 /* DataHandler.swift */,
+			);
+			path = DATA;
+			sourceTree = "<group>";
+		};
+		93F1244C29EA8E9800319EE6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				93F1245229EA8F2500319EE6 /* ReminderEditionViewController.swift */,
+				93F1245129EA8F2500319EE6 /* RemindersTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93F123F329EA863700319EE6 /* HugeClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F1241E29EA863900319EE6 /* Build configuration list for PBXNativeTarget "HugeClock" */;
+			buildPhases = (
+				93F123F029EA863700319EE6 /* Sources */,
+				93F123F129EA863700319EE6 /* Frameworks */,
+				93F123F229EA863700319EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HugeClock;
+			productName = HugeClock;
+			productReference = 93F123F429EA863700319EE6 /* HugeClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93F1240929EA863900319EE6 /* HugeClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F1242129EA863900319EE6 /* Build configuration list for PBXNativeTarget "HugeClockTests" */;
+			buildPhases = (
+				93F1240629EA863900319EE6 /* Sources */,
+				93F1240729EA863900319EE6 /* Frameworks */,
+				93F1240829EA863900319EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F1240C29EA863900319EE6 /* PBXTargetDependency */,
+			);
+			name = HugeClockTests;
+			productName = HugeClockTests;
+			productReference = 93F1240A29EA863900319EE6 /* HugeClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93F1241329EA863900319EE6 /* HugeClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F1242429EA863900319EE6 /* Build configuration list for PBXNativeTarget "HugeClockUITests" */;
+			buildPhases = (
+				93F1241029EA863900319EE6 /* Sources */,
+				93F1241129EA863900319EE6 /* Frameworks */,
+				93F1241229EA863900319EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F1241629EA863900319EE6 /* PBXTargetDependency */,
+			);
+			name = HugeClockUITests;
+			productName = HugeClockUITests;
+			productReference = 93F1241429EA863900319EE6 /* HugeClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93F123EC29EA863700319EE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					93F123F329EA863700319EE6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					93F1240929EA863900319EE6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 93F123F329EA863700319EE6;
+					};
+					93F1241329EA863900319EE6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 93F123F329EA863700319EE6;
+					};
+				};
+			};
+			buildConfigurationList = 93F123EF29EA863700319EE6 /* Build configuration list for PBXProject "HugeClock" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93F123EB29EA863700319EE6;
+			productRefGroup = 93F123F529EA863700319EE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93F123F329EA863700319EE6 /* HugeClock */,
+				93F1240929EA863900319EE6 /* HugeClockTests */,
+				93F1241329EA863900319EE6 /* HugeClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93F123F229EA863700319EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DC619E29EABB0700ABC8AD /* tickle.mp3 in Resources */,
+				93DC619F29EABB0700ABC8AD /* bell.mp3 in Resources */,
+				93F1240429EA863900319EE6 /* LaunchScreen.storyboard in Resources */,
+				93F1240129EA863900319EE6 /* Assets.xcassets in Resources */,
+				93F123FF29EA863700319EE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F1240829EA863900319EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F1241229EA863900319EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93F123F029EA863700319EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F1244E29EA8EDE00319EE6 /* MOCHolderProtocol.swift in Sources */,
+				93F1244929EA8BC000319EE6 /* Reminder+CoreDataClass.swift in Sources */,
+				93F1245329EA8F2500319EE6 /* RemindersTableViewController.swift in Sources */,
+				93F1242E29EA892400319EE6 /* NotificationHandler.swift in Sources */,
+				93F1245B29EA91F500319EE6 /* Utilities.swift in Sources */,
+				93F123F829EA863700319EE6 /* AppDelegate.swift in Sources */,
+				93F1244629EA8BC000319EE6 /* Reminder+CoreDataProperties.swift in Sources */,
+				93DC619B29EA933300ABC8AD /* Reminders.xcdatamodeld in Sources */,
+				93F1243929EA89F300319EE6 /* DataHandler.swift in Sources */,
+				93F123FA29EA863700319EE6 /* SceneDelegate.swift in Sources */,
+				93F1245629EA8F2500319EE6 /* ReminderEditionViewController.swift in Sources */,
+				93F1245E29EA91F500319EE6 /* DateUtilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F1240629EA863900319EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F1244F29EA8EDE00319EE6 /* MOCHolderProtocol.swift in Sources */,
+				93F1245429EA8F2500319EE6 /* RemindersTableViewController.swift in Sources */,
+				93F1243A29EA89F300319EE6 /* DataHandler.swift in Sources */,
+				93F1240F29EA863900319EE6 /* HugeClockTests.swift in Sources */,
+				93F1245729EA8F2500319EE6 /* ReminderEditionViewController.swift in Sources */,
+				93F1242F29EA892400319EE6 /* NotificationHandler.swift in Sources */,
+				93F1244A29EA8BC000319EE6 /* Reminder+CoreDataClass.swift in Sources */,
+				93F1245F29EA91F500319EE6 /* DateUtilities.swift in Sources */,
+				93F1245C29EA91F500319EE6 /* Utilities.swift in Sources */,
+				93F1244729EA8BC000319EE6 /* Reminder+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F1241029EA863900319EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F1246029EA91F500319EE6 /* DateUtilities.swift in Sources */,
+				93F1241B29EA863900319EE6 /* HugeClockUITestsLaunchTests.swift in Sources */,
+				93F1245029EA8EDE00319EE6 /* MOCHolderProtocol.swift in Sources */,
+				93F1245D29EA91F500319EE6 /* Utilities.swift in Sources */,
+				93F1243029EA892400319EE6 /* NotificationHandler.swift in Sources */,
+				93F1241929EA863900319EE6 /* HugeClockUITests.swift in Sources */,
+				93F1245529EA8F2500319EE6 /* RemindersTableViewController.swift in Sources */,
+				93F1245829EA8F2500319EE6 /* ReminderEditionViewController.swift in Sources */,
+				93F1244B29EA8BC000319EE6 /* Reminder+CoreDataClass.swift in Sources */,
+				93F1243B29EA89F300319EE6 /* DataHandler.swift in Sources */,
+				93F1244829EA8BC000319EE6 /* Reminder+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93F1240C29EA863900319EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93F123F329EA863700319EE6 /* HugeClock */;
+			targetProxy = 93F1240B29EA863900319EE6 /* PBXContainerItemProxy */;
+		};
+		93F1241629EA863900319EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93F123F329EA863700319EE6 /* HugeClock */;
+			targetProxy = 93F1241529EA863900319EE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93F123FD29EA863700319EE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93F123FE29EA863700319EE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93F1240229EA863900319EE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93F1240329EA863900319EE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93F1241C29EA863900319EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93F1241D29EA863900319EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93F1241F29EA863900319EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SF9S84VSXN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HugeClock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.technource.equipt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		93F1242029EA863900319EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SF9S84VSXN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HugeClock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.technource.equipt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		93F1242229EA863900319EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugeclock.app.HugeClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HugeClock.app/HugeClock";
+			};
+			name = Debug;
+		};
+		93F1242329EA863900319EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugeclock.app.HugeClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HugeClock.app/HugeClock";
+			};
+			name = Release;
+		};
+		93F1242529EA863900319EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugeclock.app.HugeClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HugeClock;
+			};
+			name = Debug;
+		};
+		93F1242629EA863900319EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugeclock.app.HugeClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HugeClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93F123EF29EA863700319EE6 /* Build configuration list for PBXProject "HugeClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F1241C29EA863900319EE6 /* Debug */,
+				93F1241D29EA863900319EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F1241E29EA863900319EE6 /* Build configuration list for PBXNativeTarget "HugeClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F1241F29EA863900319EE6 /* Debug */,
+				93F1242029EA863900319EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F1242129EA863900319EE6 /* Build configuration list for PBXNativeTarget "HugeClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F1242229EA863900319EE6 /* Debug */,
+				93F1242329EA863900319EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F1242429EA863900319EE6 /* Build configuration list for PBXNativeTarget "HugeClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F1242529EA863900319EE6 /* Debug */,
+				93F1242629EA863900319EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93DC619929EA933300ABC8AD /* Reminders.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93DC619A29EA933300ABC8AD /* Reminders.xcdatamodel */,
+			);
+			currentVersion = 93DC619A29EA933300ABC8AD /* Reminders.xcdatamodel */;
+			path = Reminders.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93F123EC29EA863700319EE6 /* Project object */;
+}
